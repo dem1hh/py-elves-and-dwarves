@@ -11,7 +11,10 @@ class DwarfBlacksmith(Dwarf):
         return self._skill_level
 
     def player_info(self) -> None:
-        return f"Dwarf blacksmith {self.nickname} with skill of the {self._skill_level} level"
+        return (
+            f"Dwarf blacksmith {self.nickname} "
+            f"with skill of the {self._skill_level} level"
+        )
 
     def declared(self) -> None:
         pass
