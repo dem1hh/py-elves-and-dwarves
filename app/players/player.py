@@ -13,6 +13,5 @@ class Player(ABC):
     def player_info(self) -> str:
         pass
 
-    @abstractmethod
     def declared(self) -> None:
         pass
