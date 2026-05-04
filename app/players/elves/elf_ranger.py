@@ -17,6 +17,3 @@ class ElfRanger(Elf):
             f"Elf ranger {self.nickname}. {self.nickname} "
             f"has bow of the {self._bow_level} level"
         )
-
-    def declared(self) -> None:
-        pass
